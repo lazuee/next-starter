@@ -1,0 +1,13 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"buildCommand": "pnpm build",
+	"public": true,
+	"cleanUrls": true,
+	"trailingSlash": false,
+	"regions": ["hnd1"],
+	"github": {
+		"enabled": true,
+		"silent": true,
+		"autoJobCancelation": false
+	}
+}

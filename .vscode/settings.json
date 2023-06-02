@@ -1,0 +1,41 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+
+	"prettier.enable": true,
+	"prettier.jsxSingleQuote": false,
+	"prettier.bracketSpacing": true,
+	"prettier.bracketSameLine": true,
+	"prettier.useTabs": true,
+	"prettier.semi": true,
+	"prettier.tabWidth": 4,
+	"prettier.endOfLine": "lf",
+	"prettier.prettierPath": "./node_modules/prettier",
+	"prettier.printWidth": 120,
+	"prettier.requireConfig": true,
+	"prettier.withNodeModules": true,
+	"files.eol": "\n",
+	"files.autoGuessEncoding": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.experimental.classRegex": [
+		"tw`([^`]*)", // tw`...`
+		"tw=\"([^\"]*)", // <div tw="..." />
+		"tw={\"([^\"}]*)", // <div tw={"..."} />
+		"tw\\.\\w+`([^`]*)", // tw.xxx`...`
+		"tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+	],
+	"tailwindCSS.includeLanguages": {
+		"typescript": "javascript",
+		"typescriptreact": "javascript"
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	}
+}

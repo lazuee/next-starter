@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"ms-vscode.vscode-typescript-next",
+		"usernamehw.errorlens",
+		"yoavbls.pretty-ts-errors",
+		"shardulm94.trailing-spaces",
+		"heybourn.headwind",
+		"bradlc.vscode-tailwindcss",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode"
+	]
+}
