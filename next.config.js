@@ -2,7 +2,7 @@ const dotenv = require("dotenv");
 const dotenvExpand = require("dotenv-expand");
 dotenvExpand.expand(dotenv.config());
 
-console.log(process.env);
+//console.log(process.env);
 
 const path = require("path");
 const loaderUtils = require("loader-utils");
