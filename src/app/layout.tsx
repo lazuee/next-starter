@@ -17,7 +17,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
 	return (
 		<html lang="en" suppressHydrationWarning={true}>
 			<head />
-			<ThemeProvider>
 				<body
 					className={cn(
 						fontSans.variable,
@@ -27,9 +26,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
 						"tw-bg-neutral-100 dark:tw-bg-neutral-800",
 						"tw-text-black dark:tw-text-white"
 					)}>
-					<Layout>{children}</Layout>
+					<ThemeProvider>
+						<Layout>{children}</Layout>
+					</ThemeProvider>
 				</body>
-			</ThemeProvider>
 		</html>
 	);
 }
