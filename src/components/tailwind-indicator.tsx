@@ -2,13 +2,13 @@ export const TailwindIndicator = () => {
 	if (process.env.NODE_ENV === "production") return null;
 
 	return (
-		<div className="fixed bottom-1 left-1 z-50 flex h-6 w-6 items-center justify-center rounded-full bg-gray-800 p-3 font-mono text-xs text-white">
-			<div className="block sm:hidden">xs</div>
-			<div className="hidden sm:block md:hidden">sm</div>
-			<div className="hidden md:block lg:hidden">md</div>
-			<div className="hidden lg:block xl:hidden">lg</div>
-			<div className="hidden xl:block 2xl:hidden">xl</div>
-			<div className="hidden 2xl:block">2xl</div>
+		<div className="tw-fixed tw-bottom-1 tw-left-1 tw-z-50 tw-flex tw-h-6 tw-w-6 tw-items-center tw-justify-center tw-rounded-full tw-bg-gray-800 tw-p-3 tw-font-mono tw-text-xs tw-text-white">
+			<div className="tw-block sm:tw-hidden">xs</div>
+			<div className="tw-hidden sm:tw-block md:tw-hidden">sm</div>
+			<div className="tw-hidden md:tw-block lg:tw-hidden">md</div>
+			<div className="tw-hidden lg:tw-block xl:tw-hidden">lg</div>
+			<div className="tw-hidden xl:tw-block 2xl:tw-hidden">xl</div>
+			<div className="tw-hidden 2xl:tw-block">2xl</div>
 		</div>
 	);
 };
